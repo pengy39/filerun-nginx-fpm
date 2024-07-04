@@ -8,7 +8,6 @@ ENV FR_DB_HOST=db \
    WEB_RUN_USER_ID=33 \
    WEB_RUN_GROUP=www-data \
    WEB_RUN_GROUP_ID=33 \
-   LIBREOFFICE_VERSION=7.6.7 \
    PHP_VERSION_SHORT=8.1
 VOLUME [/var/www/html /user-files]
 RUN apt update &&\

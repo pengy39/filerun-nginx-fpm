@@ -4,7 +4,7 @@ $overwriteDefaultSettings = [
         'thumbnails_vips_path' => 'vipsthumbnail',
 
         'thumbnails_imagemagick' => '1',
-        'thumbnails_imagemagick_path' => 'magick',
+        'thumbnails_imagemagick_path' => 'convert',
 
         'thumbnails_ffmpeg' => '1',
         'thumbnails_ffmpeg_path' => 'ffmpeg',
@@ -12,8 +12,10 @@ $overwriteDefaultSettings = [
         'thumbnails_libreoffice' => '1',
         'thumbnails_libreoffice_path' => 'soffice',
 
-        'thumbnails_stl' => '1',
+        'thumbnails_stl' => '0',
         'thumbnails_stl_path' => 'stl-thumb',
+	
+	'thumbnails_pngquant' => '1'
         'thumbnails_pngquant_path' => 'pngquant',
 
         'download_accelerator' => 'xsendfile',
